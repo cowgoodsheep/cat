@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>注册</title>
+    </head>
+
+    <body>
+        <form action="/register" method="post">
+            <!-- 用户名输入框 -->
+            <label for="name">用户名:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <!-- 密码输入框 -->
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <!-- 单选按钮 -->
+            <label>性别:</label>
+            <input type="radio" id="male" name="gender" value="男" checked>
+            <label for="男">男</label>
+            <input type="radio" id="female" name="gender" value="女">
+            <label for="女">女</label>
+            <input type="radio" id="other" name="gender" value="其他">
+            <label for="其他">其他</label><br>
+
+            <!-- 电话号码输入框 -->
+            <label for="phonenum">电话号码:</label>
+            <input type="text" id="phone" name="phone" required><br>
+
+            <!-- 年龄输入框 -->
+            <label for="age">年龄:</label>
+            <input type="text" id="age" name="age" required><br>
+
+            <!-- 提交按钮 -->
+            <input type="submit" value="提交">
+        </form>
+    </body>
+</html>
